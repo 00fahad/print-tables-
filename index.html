@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <link rel="stylesheet" href="table.css" />
+  </head>
+  <body>
+    <!-- notes:
+       my best practise I wraped 3 divs in one container called tables so just i can apply display flex on its 1st childrens so just remember if you want to apply flex and grid properties on 2 or more elements than just wrap them into container bcz it'll be easy for you to apply property on one container rather than one by one and if you have content in your container's child than also wrap the content of into a container like class="tables" inside it class="table-2" and wrap the content in your table-2 container  -->
+
+    <div class="tables">    
+      <div class="table-2">
+        <h1>table of 2</h1>
+        <input id="taB2" type="number"/>
+        <button id="btN2">Sumbit</button>
+        <div id="diS2"></div>
+      </div>
+      <div class="table-3">
+        <h1>table of 3</h1>
+        <input id="taB3" type="number"/>
+        <button id="btN3">Sumbit</button>
+        <div id="diS3"></div>
+      </div>
+      <div class="table-4">
+        <h1>table of 4</h1>
+        <input id="taB4" type="number"  />
+        <button id="btN4">Sumbit</button>
+        <div id="diS4"></div>
+      </div>
+    </div>
+
+    <script src="table.js"></script>
+  </body>
+</html>
