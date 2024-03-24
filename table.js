@@ -35,3 +35,7 @@ function displayMultiplicationTable(number, display) {
   table += "</table>";
   display.innerHTML = table;
 }
+
+
+// styling by javascript
+document.body.style.backgroundColor ="lightblue";

@@ -9,11 +9,12 @@
     column-gap: 30px;
     color: brown;
     text-transform: capitalize;
-    background-color: ivory;
+    background-color: rgb(243, 209, 57);
     height: 80vh;
-    border: 2px solid orange;
+    border: 2px solid rgb(255, 0, 0);
     margin: auto;
     width: calc(100vw - 20vw);
+    border-radius: 23px;
 }
 
 
@@ -25,6 +26,7 @@
     height: 60vh;
     border-radius: 20px;
     margin-top: 15px;
+    width: 20vw;
 
 }
 
@@ -36,6 +38,8 @@
     height: 60vh;
     border-radius: 20px;
     margin-top: 15px;
+    width: 20vw;
+
 }
 
 
@@ -48,6 +52,7 @@
     height: 60vh;
     border-radius: 20px;
     margin-top: 15px;
+    width: 20vw;
 
 }
 
